@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC83573B2A851AB100AE0AD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC83573A2A851AB100AE0AD4 /* AppDelegate.swift */; };
+		DC83573D2A851AB100AE0AD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC83573C2A851AB100AE0AD4 /* SceneDelegate.swift */; };
+		DC83573F2A851AB100AE0AD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC83573E2A851AB100AE0AD4 /* ViewController.swift */; };
+		DC8357422A851AB100AE0AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8357402A851AB100AE0AD4 /* Main.storyboard */; };
+		DC8357442A851AB200AE0AD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8357432A851AB200AE0AD4 /* Assets.xcassets */; };
+		DC8357472A851AB200AE0AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8357452A851AB200AE0AD4 /* LaunchScreen.storyboard */; };
+		DC8357522A851AB200AE0AD4 /* fito_storyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8357512A851AB200AE0AD4 /* fito_storyboardTests.swift */; };
+		DC83575C2A851AB200AE0AD4 /* fito_storyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC83575B2A851AB200AE0AD4 /* fito_storyboardUITests.swift */; };
+		DC83575E2A851AB200AE0AD4 /* fito_storyboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC83575D2A851AB200AE0AD4 /* fito_storyboardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC83574E2A851AB200AE0AD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC83572F2A851AB100AE0AD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC8357362A851AB100AE0AD4;
+			remoteInfo = "fito-storyboard";
+		};
+		DC8357582A851AB200AE0AD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC83572F2A851AB100AE0AD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC8357362A851AB100AE0AD4;
+			remoteInfo = "fito-storyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC8357372A851AB100AE0AD4 /* fito-storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fito-storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC83573A2A851AB100AE0AD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC83573C2A851AB100AE0AD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC83573E2A851AB100AE0AD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC8357412A851AB100AE0AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC8357432A851AB200AE0AD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC8357462A851AB200AE0AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC8357482A851AB200AE0AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC83574D2A851AB200AE0AD4 /* fito-storyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fito-storyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8357512A851AB200AE0AD4 /* fito_storyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fito_storyboardTests.swift; sourceTree = "<group>"; };
+		DC8357572A851AB200AE0AD4 /* fito-storyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fito-storyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC83575B2A851AB200AE0AD4 /* fito_storyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fito_storyboardUITests.swift; sourceTree = "<group>"; };
+		DC83575D2A851AB200AE0AD4 /* fito_storyboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fito_storyboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC8357342A851AB100AE0AD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC83574A2A851AB200AE0AD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8357542A851AB200AE0AD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC83572E2A851AB100AE0AD4 = {
+			isa = PBXGroup;
+			children = (
+				DC8357392A851AB100AE0AD4 /* fito-storyboard */,
+				DC8357502A851AB200AE0AD4 /* fito-storyboardTests */,
+				DC83575A2A851AB200AE0AD4 /* fito-storyboardUITests */,
+				DC8357382A851AB100AE0AD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC8357382A851AB100AE0AD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC8357372A851AB100AE0AD4 /* fito-storyboard.app */,
+				DC83574D2A851AB200AE0AD4 /* fito-storyboardTests.xctest */,
+				DC8357572A851AB200AE0AD4 /* fito-storyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC8357392A851AB100AE0AD4 /* fito-storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DC83573A2A851AB100AE0AD4 /* AppDelegate.swift */,
+				DC83573C2A851AB100AE0AD4 /* SceneDelegate.swift */,
+				DC83573E2A851AB100AE0AD4 /* ViewController.swift */,
+				DC8357402A851AB100AE0AD4 /* Main.storyboard */,
+				DC8357432A851AB200AE0AD4 /* Assets.xcassets */,
+				DC8357452A851AB200AE0AD4 /* LaunchScreen.storyboard */,
+				DC8357482A851AB200AE0AD4 /* Info.plist */,
+			);
+			path = "fito-storyboard";
+			sourceTree = "<group>";
+		};
+		DC8357502A851AB200AE0AD4 /* fito-storyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC8357512A851AB200AE0AD4 /* fito_storyboardTests.swift */,
+			);
+			path = "fito-storyboardTests";
+			sourceTree = "<group>";
+		};
+		DC83575A2A851AB200AE0AD4 /* fito-storyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC83575B2A851AB200AE0AD4 /* fito_storyboardUITests.swift */,
+				DC83575D2A851AB200AE0AD4 /* fito_storyboardUITestsLaunchTests.swift */,
+			);
+			path = "fito-storyboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC8357362A851AB100AE0AD4 /* fito-storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC8357612A851AB200AE0AD4 /* Build configuration list for PBXNativeTarget "fito-storyboard" */;
+			buildPhases = (
+				DC8357332A851AB100AE0AD4 /* Sources */,
+				DC8357342A851AB100AE0AD4 /* Frameworks */,
+				DC8357352A851AB100AE0AD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fito-storyboard";
+			productName = "fito-storyboard";
+			productReference = DC8357372A851AB100AE0AD4 /* fito-storyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC83574C2A851AB200AE0AD4 /* fito-storyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC8357642A851AB200AE0AD4 /* Build configuration list for PBXNativeTarget "fito-storyboardTests" */;
+			buildPhases = (
+				DC8357492A851AB200AE0AD4 /* Sources */,
+				DC83574A2A851AB200AE0AD4 /* Frameworks */,
+				DC83574B2A851AB200AE0AD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC83574F2A851AB200AE0AD4 /* PBXTargetDependency */,
+			);
+			name = "fito-storyboardTests";
+			productName = "fito-storyboardTests";
+			productReference = DC83574D2A851AB200AE0AD4 /* fito-storyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC8357562A851AB200AE0AD4 /* fito-storyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC8357672A851AB200AE0AD4 /* Build configuration list for PBXNativeTarget "fito-storyboardUITests" */;
+			buildPhases = (
+				DC8357532A851AB200AE0AD4 /* Sources */,
+				DC8357542A851AB200AE0AD4 /* Frameworks */,
+				DC8357552A851AB200AE0AD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC8357592A851AB200AE0AD4 /* PBXTargetDependency */,
+			);
+			name = "fito-storyboardUITests";
+			productName = "fito-storyboardUITests";
+			productReference = DC8357572A851AB200AE0AD4 /* fito-storyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC83572F2A851AB100AE0AD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DC8357362A851AB100AE0AD4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DC83574C2A851AB200AE0AD4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DC8357362A851AB100AE0AD4;
+					};
+					DC8357562A851AB200AE0AD4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DC8357362A851AB100AE0AD4;
+					};
+				};
+			};
+			buildConfigurationList = DC8357322A851AB100AE0AD4 /* Build configuration list for PBXProject "fito-storyboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC83572E2A851AB100AE0AD4;
+			productRefGroup = DC8357382A851AB100AE0AD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC8357362A851AB100AE0AD4 /* fito-storyboard */,
+				DC83574C2A851AB200AE0AD4 /* fito-storyboardTests */,
+				DC8357562A851AB200AE0AD4 /* fito-storyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC8357352A851AB100AE0AD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8357472A851AB200AE0AD4 /* LaunchScreen.storyboard in Resources */,
+				DC8357442A851AB200AE0AD4 /* Assets.xcassets in Resources */,
+				DC8357422A851AB100AE0AD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC83574B2A851AB200AE0AD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8357552A851AB200AE0AD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC8357332A851AB100AE0AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC83573F2A851AB100AE0AD4 /* ViewController.swift in Sources */,
+				DC83573B2A851AB100AE0AD4 /* AppDelegate.swift in Sources */,
+				DC83573D2A851AB100AE0AD4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8357492A851AB200AE0AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8357522A851AB200AE0AD4 /* fito_storyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8357532A851AB200AE0AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC83575C2A851AB200AE0AD4 /* fito_storyboardUITests.swift in Sources */,
+				DC83575E2A851AB200AE0AD4 /* fito_storyboardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC83574F2A851AB200AE0AD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC8357362A851AB100AE0AD4 /* fito-storyboard */;
+			targetProxy = DC83574E2A851AB200AE0AD4 /* PBXContainerItemProxy */;
+		};
+		DC8357592A851AB200AE0AD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC8357362A851AB100AE0AD4 /* fito-storyboard */;
+			targetProxy = DC8357582A851AB200AE0AD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC8357402A851AB100AE0AD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC8357412A851AB100AE0AD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC8357452A851AB200AE0AD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC8357462A851AB200AE0AD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC83575F2A851AB200AE0AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC8357602A851AB200AE0AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC8357622A851AB200AE0AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "fito-storyboard/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jh.fito-storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC8357632A851AB200AE0AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "fito-storyboard/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jh.fito-storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC8357652A851AB200AE0AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jh.fito-storyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fito-storyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fito-storyboard";
+			};
+			name = Debug;
+		};
+		DC8357662A851AB200AE0AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jh.fito-storyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fito-storyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fito-storyboard";
+			};
+			name = Release;
+		};
+		DC8357682A851AB200AE0AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jh.fito-storyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fito-storyboard";
+			};
+			name = Debug;
+		};
+		DC8357692A851AB200AE0AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jh.fito-storyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fito-storyboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC8357322A851AB100AE0AD4 /* Build configuration list for PBXProject "fito-storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC83575F2A851AB200AE0AD4 /* Debug */,
+				DC8357602A851AB200AE0AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC8357612A851AB200AE0AD4 /* Build configuration list for PBXNativeTarget "fito-storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8357622A851AB200AE0AD4 /* Debug */,
+				DC8357632A851AB200AE0AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC8357642A851AB200AE0AD4 /* Build configuration list for PBXNativeTarget "fito-storyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8357652A851AB200AE0AD4 /* Debug */,
+				DC8357662A851AB200AE0AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC8357672A851AB200AE0AD4 /* Build configuration list for PBXNativeTarget "fito-storyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8357682A851AB200AE0AD4 /* Debug */,
+				DC8357692A851AB200AE0AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC83572F2A851AB100AE0AD4 /* Project object */;
+}
